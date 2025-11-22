@@ -1,0 +1,46 @@
+nav{
+    background-color: var(--bgColor);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    font-family: 'Geologica', sans-serif;
+    z-index: 100;
+}
+nav a{
+	background: none;
+	margin: 0 11px;
+	color: var(--fontColorDark);
+	text-decoration: none;
+	font-size: 17px;
+}
+nav a:hover{
+	color: var(--mainColor);
+}
+nav a.currentPage{
+	background-color: var(--mainColor);
+	color: var(--bgColor);
+	border-radius: 6px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+nav{
+	background-position-x: 5px;
+	background-size: 140px;
+    padding-right: 0px;
+}
+nav a{
+	margin: 0 0;
+	font-size: 15px;
+}
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+:root {
+  --mainColor: #242424;
+  --bgColor: #fff;
+  --footerColor: #20262f;
+  --fontColor: #242424;
+  --fontColorDark: #242424;
+  --orange: #ffcd2a;
+  --tag: #2d333b;
+}
+body{
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "noot";
+  src: url('fonts/noot.woff') format('woff');
+}
