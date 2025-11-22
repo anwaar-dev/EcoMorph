@@ -74,9 +74,9 @@ span.tag{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    background-image: url("images/logobig.svg");
-    background-size: 50%;
-    background-repeat: no-repeat;
+    background-image: url('images/logobig.svg'), url('images/doodle.png');
+    background-size: 50%, 210px 210px;
+    background-repeat: no-repeat, repeat;
     background-position: center;
     background-color: #cca7ff;
     margin: 20px;
