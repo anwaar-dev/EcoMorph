@@ -64,6 +64,12 @@ span.tag{
     font-weight: normal;
     padding: 2px 8px;
 }
+.outlined-text {
+  color: white; /* The fill color of the text */
+  -webkit-text-stroke-width: 1px; /* The width of the outline */
+  -webkit-text-stroke-color: #201333; /* The color of the outline */
+}
+
 
 /* SECTION 1  */
 
