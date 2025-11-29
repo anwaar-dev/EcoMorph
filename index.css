@@ -226,8 +226,13 @@ p{
 
 @media screen and (max-width: 480px) {
 
-section{margin: 10px 30px;}
+#head{background-size: 90%, 210px 210px;}
+.headingBig{font-size: 40px}
+p{font-size: 18px}
+
+section{margin: 10px 30px;min-height: 50vh;}
 #sec1{margin-top: 15vh}
 #sec1 h4{font-size: 23px;}
 #sec4 content.sec4Ctr{display: none;}
+
 }
