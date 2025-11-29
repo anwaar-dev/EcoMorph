@@ -217,7 +217,23 @@ p{
 }
 
 
-
+#instasec{
+    color: var(--fontColorDark);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-image: url('images/doodle2.png');
+    background-size: 50px 50px;
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #ff86db;
+    margin: 20px;
+    margin-top: 0;
+    border-radius: 30px;
+    min-height: 55vh;
+}
 
 
 
@@ -229,6 +245,9 @@ p{
 #head{background-size: 90%, 210px 210px;}
 .headingBig{font-size: 40px}
 p{font-size: 18px}
+#instasec{min-height: 35vh}
+
+
 
 section{margin: 10px 30px;min-height: 50vh;}
 #sec1{margin-top: 15vh}
