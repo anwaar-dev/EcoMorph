@@ -224,6 +224,10 @@ p{
     font-size: 15px;
     margin-top: 2px;
 }
+#projects a.release{background-color: #ea59bf;}
+#projects a:hover{background-color: #5c3196}
+#projects a.release:hover{background-color: #c749a2}
+
 /* SECTION 3  */
 #sec3{
     display: flex;
