@@ -1,0 +1,283 @@
+html{scroll-behavior: smooth;}
+body{
+	background-color: var(--bgColor);
+	margin: 0;
+	border: 0;
+	padding: 10px 0 0 0;
+	font-family: Braah One, sans-serif;
+	font-size: 18px;
+	user-select: none;
+    min-height: 100vh;
+}
+section{min-height: 45vh;}
+.sectionHeading{
+	font-size: 34px;
+	margin-bottom: 0;
+	color: var(--mainColor);
+}
+a{
+	padding: 5px 10px;
+	background-color: var(--mainColor);
+	color: var(--bgColor);
+	border-radius: 5px;
+	text-decoration: none;
+
+}
+.button{
+    border-radius: 8px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #f0ead2;
+    border: 4px solid #242424;
+    padding: 8px 20px;
+    box-shadow: inset 0px 0px 0px 0px #262626;
+    transition-duration: 0.2s;
+    font-family: 'Geologica', sans-serif;
+    font-size: 16px;
+}
+.button:hover{box-shadow: inset 0px 0px 0px 25px #262626;color: #fff;background-color: #262626;}
+.button:active{opacity: 0.3;transform: translateY(5px);}
+.headingBig{
+	font-size: 65px;
+    width: 85%;
+    text-align: center;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    font-family: noot, sans-serif;
+    margin-bottom: 5px;
+	color: #7140b4;
+}
+span{color: #242424;margin-left: 2px;}
+span.price{
+    background-color: #34af4c;
+    border-radius: 5px;
+    color: #fff;
+    padding: 2px 8px;
+}
+hr{border: 1px solid #d9e2f3}
+span.tag{
+    background-color: #e8d8ff;
+    color: #7140b4;
+    border-radius: 5px;
+    font-family: 'Geologica';
+    margin: 2px;
+    font-weight: normal;
+    padding: 2px 8px;
+}
+.outlined-text {
+  color: white; /* The fill color of the text */
+  -webkit-text-stroke-width: 1px; /* The width of the outline */
+  -webkit-text-stroke-color: #201333; /* The color of the outline */
+}
+
+
+/* SECTION 1  */
+
+#head{
+    color: var(--fontColorDark);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-image: url('images/doodle.png');
+    background-size: 210px 210px;
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #cca7ff;
+    margin: 20px;
+    margin-top: 0;
+    border-radius: 30px;
+}
+#head h1{
+	font-size: 104px;
+	margin-bottom: 18px;
+	color: var(--mainColor);
+}
+#head h4{
+    color: #ffcd2a;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #201333;
+    font-size: 95px;
+    margin: 10px;
+    margin-top: 30px;
+}
+p{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'Geologica', sans-serif;
+    opacity: 0.7;
+}
+
+#sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    min-height: 0;
+}
+#sponsors h1{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Geologica';
+    opacity: 60%;
+    margin-top: 35px;
+    width: 100%;
+}
+#sponsors spnsrlogo{
+    width: 150px;
+    height: 65px;
+    background-color: lightgray;
+    margin: 10px 20px 0 20px;
+}
+
+/* Section: 2  */
+#about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+/* SECTION 2  */
+#projects{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #eaeaea;
+    margin: 0px;
+    margin-top: 0;
+    padding-bottom: 20px;
+    border-radius: 0px;
+}
+#projects content{
+    margin: 12px 15px;
+    border-radius: 20px;
+    padding: 0 0px 20px 0px;
+    background-color: #fff;
+    max-width: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+#projects div.thumbnail{
+    width: 220px;
+    height: 200px;
+    background-color: #ffcd2a;
+    background-image: url(images/products/chain1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 20px 20px 0 0;
+    align-content: flex-start;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+#projects div.thumbnail a{
+    background-color: #ffffff;
+    border: 0px solid #242424;
+    padding: 6px 12px;
+    color: #202020;
+    margin: 8px;
+    font-family: 'Geologica';
+    font-size: 14px;
+    transition-duration: 0.12s;
+    border-radius: 11px;
+    cursor: pointer;
+}
+#projects div.thumbnail a:hover{
+	background-color: var(--bgColor);
+}
+#projects h6{
+    margin: 5px 0 5px 0px;
+    font-family: Geologica, sans-serif;
+    font-size: 13px;
+    color: #242424;
+    font-weight: normal;
+    text-align: center;
+}
+#projects p{
+        font-family: 'Geologica';
+    font-size: 19px;
+    color: #23113b;
+}
+#projects a{
+    padding: 7px 30px;
+    background-color: #7140b4;
+    color: #ffffff;
+    border-radius: 11px;
+    text-decoration: none;
+    font-family: 'Geologica';
+    font-size: 15px;
+    margin-top: 2px;
+}
+/* SECTION 3  */
+#sec3{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+}
+#sec3 a{
+    margin-top: 10px;
+    width: 180px;
+    text-align: center;
+}
+
+
+#instasec{
+    color: var(--fontColorDark);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-image: url('images/doodle2.png');
+    background-size: 50px 50px;
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #ff86db;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 30px;
+    min-height: 55vh;
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+#head{background-size: 90%, 210px 210px;}
+.headingBig{font-size: 40px}
+p{font-size: 18px}
+#instasec{min-height: 35vh}
+#projects{margin: 0}
+#projects p{font-size: 18px}
+
+
+section{margin: 10px 30px;min-height: 50vh;}
+#sec1{margin-top: 15vh}
+#sec1 h4{font-size: 23px;}
+#sec4 content.sec4Ctr{display: none;}
+
+}
