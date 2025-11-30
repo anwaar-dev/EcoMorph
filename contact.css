@@ -1,13 +1,19 @@
 html{scroll-behavior: smooth;}
 body{
-	background-color: var(--bgColor);
-	margin: 0;
-	border: 0;
-	padding: 10px 0 0 0;
-	font-family: Braah One, sans-serif;
-	font-size: 18px;
-	user-select: none;
+    background-color: var(--bgColor);
+    margin: 0;
+    border: 0;
+    padding: 10px 0 0 0;
+    font-family: Braah One, sans-serif;
+    font-size: 18px;
+    user-select: none;
     min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 section{min-height: 45vh;}
 .sectionHeading{
@@ -38,7 +44,7 @@ a{
 .button:hover{box-shadow: inset 0px 0px 0px 25px #262626;color: #fff;background-color: #262626;}
 .button:active{opacity: 0.3;transform: translateY(5px);}
 .headingBig{
-	font-size: 65px;
+	font-size: 50px;
     width: 85%;
     text-align: center;
     margin-left: 7.5%;
@@ -88,6 +94,7 @@ span.tag{
     margin: 20px;
     margin-top: 0;
     border-radius: 30px;
+    width: 100%;
 }
 #head h1{
 	font-size: 104px;
@@ -98,7 +105,7 @@ span.tag{
     color: #ffcd2a;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #201333;
-    font-size: 95px;
+    font-size: 85px;
     margin: 10px;
     margin-top: 30px;
 }
@@ -262,6 +269,7 @@ p{
     margin-top: 50px;
     border-radius: 30px;
     min-height: 55vh;
+    max-width: 330px;
 }
 #wtspsec{
     color: var(--fontColorDark);
@@ -279,6 +287,7 @@ p{
     margin-top: 50px;
     border-radius: 30px;
     min-height: 55vh;
+    max-width: 330px;
 }
 
 
