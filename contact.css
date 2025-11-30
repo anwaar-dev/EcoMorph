@@ -263,6 +263,23 @@ p{
     border-radius: 30px;
     min-height: 55vh;
 }
+#wtspsec{
+    color: var(--fontColorDark);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-image: url('images/doodle3.png');
+    background-size: 50px 50px;
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #58d06f;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 30px;
+    min-height: 55vh;
+}
 
 
 
@@ -273,13 +290,15 @@ p{
 
 #head{background-size: 210px 210px;}
 .headingBig{font-size: 40px}
-p{font-size: 18px}
-#instasec{min-height: 35vh}
+#head h4{font-size: 64px;line-height: 1;}
+p{font-size: 16px}
+#instasec{min-height: 30vh; margin-top: 20px}
+#wtspsec{min-height: 30vh;margin: 10px 20px}
 #projects{margin: 0}
 #projects p{font-size: 18px}
 
 
-section{margin: 10px 30px;min-height: 50vh;}
+section{margin: 10px 30px;min-height: 35vh;}
 #sec1{margin-top: 15vh}
 #sec1 h4{font-size: 23px;}
 #sec4 content.sec4Ctr{display: none;}
